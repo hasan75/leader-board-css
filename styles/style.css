@@ -78,3 +78,50 @@ hr {
   font-size: 16px;
   color: #562eff;
 }
+/*----------------------
+ Courses Style 
+ -----------------------*/
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
+}
+.course {
+  width: 253px;
+  height: 270px;
+
+  border: 1px;
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px gainsboro;
+}
+.course .course-banner img {
+  width: 224px;
+  height: 104px;
+}
+.course-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fa-star {
+  font-size: 12px;
+}
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.empty {
+  color: #aeaeae;
+}
+.course-duration {
+  color: #ff4a60;
+  background: #ffe4e8;
+  border-radius: 14.6913px;
+}
+.fa-clock {
+  font-size: 14;
+}
