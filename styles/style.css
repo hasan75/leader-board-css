@@ -89,14 +89,14 @@ hr {
 .course {
   width: 253px;
   height: 270px;
-
-  border: 1px;
   border-radius: 15px;
   padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.course:hover {
   box-shadow: 5px 5px 10px gainsboro;
 }
 .course .course-banner img {
