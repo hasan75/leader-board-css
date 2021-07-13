@@ -1,9 +1,47 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 /* common styles or utilities */
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #f3f1ff;
+}
+header {
+  height: 94px;
+  background-color: #562eff;
+  /* margin: 0px; */
+}
+.header-content {
+  display: flex;
+  justify-content: space-around;
+}
+.left-side-nav,
+.right-side-nav {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.left-side-nav img {
+  width: 40.42px;
+  height: 51px;
+}
+.left-side-nav span {
+  font-size: 24px;
+  color: #ffffff;
+  margin-left: 15.58px;
+}
+.right-side-nav img {
+  width: 51px;
+  height: 51px;
+}
+.right-side-nav a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 36px;
 }
 main {
   display: flex;
@@ -29,6 +67,7 @@ hr {
   font-size: 24px;
   color: #562eff;
   margin-top: 3px;
+  padding-bottom: 20px;
 }
 .players {
   display: grid;
